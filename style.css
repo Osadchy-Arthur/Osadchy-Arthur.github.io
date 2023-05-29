@@ -1,3 +1,34 @@
+header {
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+header div {
+    height: 40px;
+}
+
+#hideButton {
+    height: 40px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color, color 0.5s;
+}
+
+#hideButton:hover {
+    background-color: gold;
+    color: black;
+}
+
 .box {
     display: flex;
     justify-content: space-between;
@@ -6,7 +37,6 @@
 
 #catalog {
     display: flex;
-    align-content: flex-start;
     flex-wrap: wrap;
     justify-content: space-around;
 }
@@ -19,6 +49,9 @@
     padding: 20px;
     margin: 20px;
     border: 1px solid grey;
+    max-height: 350px;
+    justify-content: space-around;
+    border-radius: 10px;
 }
 
 .product h3 {
@@ -42,17 +75,17 @@
 }
 
 .product button {
-    background-color: green;
+    background-color: darkblue;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    transition: background-color ease 0.5s;
+    transition: background-color 0.5s;
     border-radius: 5px;
 }
 
 .product button:hover {
-    background-color: black;
+    background-color: green;
 }
 
 #cart {
@@ -61,6 +94,9 @@
     background-color: #f2f2f2;
     box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.3);
     z-index: 999;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 #cart ul {
@@ -82,16 +118,31 @@
 #cart button {
     display: block;
     margin: 10px auto;
-    background-color: green;
+    background-color: darkblue;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    transition: background-color ease 0.5s;
+    transition: background-color 0.5s;
     border-radius: 5px;
 }
 
 #cart button:hover {
-    background-color: black;
+    background-color: green;
 }
 
+footer {
+    width: 100%;
+    height: 230px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-bottom: 0px;
+    align-items: center;
+    padding: 30px;
+}
+
+footer div {
+
+}

@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #663681;
+    background-color: #abcdef;
 }
 
 .navbar a {
@@ -16,22 +16,22 @@ p{
 }
 
 .form-container {
-  background-color: #abcdef;
+  background-color: #5970fc;
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .custom-input {
-  background-color: #1c1c1c;
-  color: #f8f9fa;
+  background-color: #ffffff;
+  color: #000000;
   border: 1px solid #dee2e6;
 }
 
 .custom-input:focus,
 .custom-input:active {
-  background-color: #1c1c1c;
-  color: #f8f9fa;
+  background-color: #ffffff;
+  color: #000000;
   outline: none;
   box-shadow: none;
 }
@@ -42,7 +42,7 @@ p{
 
 .custom-button {
   width: 25%;
-  background-color: #6c3090;
+  background-color: #4c7ba9;
   color: #f8f9fa;
   border: 1px solid #dee2e6;
 }
@@ -54,5 +54,5 @@ p{
 }
 
 .custom-purple {
-  background-color: #490271; /* Фиолетовый цвет (например, Bootstrap Purple) */
+  background-color: #5970fc; /* Фиолетовый цвет (например, Bootstrap Purple) */
 }

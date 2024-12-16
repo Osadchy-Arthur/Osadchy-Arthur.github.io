@@ -1,0 +1,58 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #663681;
+}
+
+.navbar a {
+    color: #fff !important;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+}
+
+p{
+    color: #ffffff;
+}
+
+.form-container {
+  background-color: #490271;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-input {
+  background-color: #1c1c1c;
+  color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.custom-input:focus,
+.custom-input:active {
+  background-color: #1c1c1c;
+  color: #f8f9fa;
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-input::placeholder {
+  color: #adb5bd;
+}
+
+.custom-button {
+  width: 25%;
+  background-color: #6c3090;
+  color: #f8f9fa;
+  border: 1px solid #dee2e6;
+}
+
+.custom-button:hover {
+  background-color: #1c1c1c;
+  color: #f8f9fa;
+  border-color: #dee2e6;
+}
+
+.custom-purple {
+  background-color: #490271; /* Фиолетовый цвет (например, Bootstrap Purple) */
+}

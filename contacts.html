@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark custom-purple">
+      <div class="container">
+          <a class="navbar-brand" href="index.html">Главная</a>
+          <a class="nav-link" href="form.html">Форма</a>
+          <a class="nav-link" href="contacts.html">Контакты</a>
+      </div>
+  </nav>
+
+  <div class="container my-5">
+      <div class="col-lg-6 mx-auto">
+          <h1 class="text-center mb-4 text-light">Свяжитесь с нами</h1>
+          <span style="color: white; text-align: center;">У вас есть вопросы или предложения? Мы будем рады помочь вам! Свяжитесь с нами через контактную форму ниже или напишите нам на наш email.</span>
+          <form id="contactForm" class="form-container">
+              <div class="mb-3">
+                  <label for="name" class="form-label text-light">Ваше имя:</label>
+                  <input type="text" class="form-control custom-input" id="name" name="name" required />
+              </div>
+
+              <div class="mb-3">
+                  <label for="email" class="form-label text-light">Ваш Email:</label>
+                  <input type="email" class="form-control custom-input" id="email" name="email" required />
+              </div>
+
+              <div class="mb-3">
+                  <label for="message" class="form-label text-light">Сообщение:</label>
+                  <textarea class="form-control custom-input" id="message" name="message" rows="5" required></textarea>
+              </div>
+
+              <button type="submit" class="btn custom-button">
+                  <i class="fas fa-paper-plane"></i> Отправить
+              </button>
+              <div class="status-message mt-3 text-center text-light"></div>
+          </form>
+      </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
